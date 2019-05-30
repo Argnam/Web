@@ -1,0 +1,174 @@
+﻿.navbar-brand {
+    font-size: 40px;
+    padding: 0;
+}
+
+.carousel-item > img{
+    height: 200px;
+}
+
+.carousel-indicators {
+    cursor: pointer;
+}
+
+.cards {
+    padding: 0;
+}
+
+.breadcrumb:before{
+	text-align: center;
+}
+
+.modal-body {
+    padding: 0px;
+    margin: 20px;
+}
+
+header ol li {
+    font-size: 20px
+}
+
+#other-page {
+    color: rgb(87, 140, 253);
+    text-decoration: none;
+}
+
+#current-page {
+    color: rgb(223, 223, 223)
+}
+
+.table td, .table th, .table thead th {
+    border: none;
+}
+
+.top {
+    height: 60px;
+    background-color: rgb(77, 11, 11);
+}
+
+.main-car {
+    overflow: hidden;
+}
+
+.main-car > img {
+    transition: all 5s ease-out;
+    -o-transition: all 5s ease-out;
+    -webkit-transition: all 5s ease-out;
+    cursor: pointer;
+}
+
+.main-car > img:hover {
+    transform: scale(1.5);
+    -moz-transform: scale(1.5);
+    -o-transform: scale(1.5);
+}
+
+@media (max-width: 991px) {
+    .cards {
+        justify-content: space-around !important;
+    }
+    
+    .card {
+        margin-bottom: 2rem;
+    }
+}
+
+.profile-icon {
+    cursor: pointer;
+}
+
+#first-menu {
+    display: grid;
+    visibility: hidden;
+    top: 70%;
+    left: 24px;
+    right: auto;
+    transition: 0.5s;
+}
+
+#second-menu {
+    display: none;
+    width: 183px;
+}
+
+#second-menu:hover {
+    display: grid;   
+}
+
+#second-menu-btn {
+    outline: none;
+}
+
+#second-menu-btn:focus + #second-menu {
+    display: grid;
+}
+
+.profile-icon > i:hover #first-menu {
+    visibility: visible;
+    top: 77%;
+}
+
+.dropdown-menu {
+    background: rgb(250, 250, 250);
+}
+
+.dropdown-item {
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+}
+
+.canvas {
+    height: 550px;
+}
+
+.comment-image {
+    width: 64px; 
+    height: 64px; 
+    border-radius: 10px;
+}
+
+.otherProjectBtns > span{
+    visibility: hidden;
+}
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    background-color: #009979;
+}
+.block-animation {
+    width: auto;
+    height: 170px;
+    background-color: #2196F3;
+    transition: background-color 1s linear;
+}
+
+    .block-animation:hover {
+        background-color: #3F51B5;
+    }
+
+span {
+    background: #D9FFAD;
+    border: 1px solid blue;
+    padding: 10px;
+}
+
+#kvadrat {
+    border-radius: 20%;
+    box-shadow: 3px 3px 10px rgba(0,0,0,0.5);
+}
+
+.col {
+    text-align: center;
+}
+
+
+table {
+    height: 70%;
+    width: 80%;
+}
+
+td {
+    background-color: rgb(255, 255, 255);
+}
