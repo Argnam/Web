@@ -2,6 +2,7 @@ function square(a, b) {
     return a * b;
 }
 
+
 function result(a, b) {
     a = parseInt(a);
     b = parseInt(b)
