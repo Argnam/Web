@@ -32,7 +32,7 @@ function result(min, max) {
         }
     }
     else {
-        if (min < 0 || max < 0) {
+        if (min < 0 || max < 0 || min > max) {
             customAlert("ведены неверные данные");
             return;
         }
