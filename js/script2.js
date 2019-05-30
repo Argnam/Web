@@ -19,12 +19,12 @@ function result(min, max) {
     var number = document.getElementById('result');
     number.innerHTML = "";
     if (min == "" || max == "") {
-        customAlert("¬ведены неверные данные");
+        customAlert("ведены неверные данные");
         return;
     }
     if (min == 0 || max == 0) {
         if (min < 0 && max == 0 || min == 0 && max < 0) {
-            customAlert("¬ведены неверные данные");
+            customAlert("ведены неверные данные");
             return;
         }
         if (isWaste) {
@@ -33,7 +33,7 @@ function result(min, max) {
     }
     else {
         if (min < 0 || max < 0) {
-            customAlert("¬ведены неверные данные");
+            customAlert("ведены неверные данные");
             return;
         }
         number.innerHTML = '<span class="mn" id="MathJax-Span-5" style="font-family: MathJax_Main; padding-left: 0.272em;">' + square(min, max) + '</span>';
